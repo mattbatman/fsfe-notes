@@ -3,6 +3,8 @@ import Nav from './Nav';
 import NavButton from './NavButton';
 import Breadcrumb from './Breadcrumb';
 
+console.log('hello world');
+
 const Layout = ({ children, order }) => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
