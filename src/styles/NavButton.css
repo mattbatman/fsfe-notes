@@ -1,0 +1,61 @@
+.NavButton {
+  position: absolute;
+  top: 0.75rem;
+  left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.NavButton:focus {
+  outline: none;
+}
+
+.NavButton div {
+  width: 1.5rem;
+  height: 0.25rem;
+  background: rgb(55, 53, 47);
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+}
+
+.NavButton div:first-child {
+  transform: rotate(0);
+}
+
+.NavButton.nav-x div:first-child {
+  transform: rotate(45deg);
+}
+
+.NavButton div:nth-child(2) {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.NavButton.nav-x div:nth-child(2) {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.NavButton div:nth-child(3) {
+  transform: rotate(0);
+}
+
+.NavButton.nav-x div:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+@media (min-width: 900px) {
+  .NavButton {
+    display: none;
+  }
+}

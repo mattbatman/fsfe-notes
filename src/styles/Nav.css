@@ -1,0 +1,17 @@
+.is-open {
+  @apply translate-x-0;
+}
+
+.is-closed {
+  @apply -translate-x-full;
+}
+
+.Nav {
+  max-width: 275px;
+}
+
+@media (min-width: 900px) {
+  .Nav {
+    @apply translate-x-0;
+  }
+}

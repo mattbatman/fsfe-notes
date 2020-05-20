@@ -1,0 +1,45 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
+body {
+  color: rgb(55, 53, 47);
+  @apply font-sans;
+  min-height: 100vh;
+}
+
+nav {
+  @apply bg-gray-200;
+}
+
+nav a {
+  color: rgba(25, 23, 17, 0.6);
+}
+
+main p {
+  @apply mb-2;
+}
+
+main a {
+  text-decoration: underline;
+}
+
+main ol,
+main ul {
+  @apply pl-4;
+  @apply leading-relaxed;
+}
+
+main ol {
+  list-style-type: decimal;
+}
+
+main ul {
+  list-style-type: disc;
+}
+
+.gatsby-highlight {
+  @apply text-sm;
+}
