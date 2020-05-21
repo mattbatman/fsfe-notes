@@ -4,6 +4,7 @@ module.exports = {
     description: `Notes from Jem Young's Full Stack for Front-End course on Frontend Masters`,
     author: `Matt Batman`,
   },
+  pathPrefix: 'fsfe-notes',
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
