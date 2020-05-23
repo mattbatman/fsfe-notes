@@ -1,7 +1,7 @@
 ---
 path: '/application-setup'
 title: 'Application Setup'
-order: 'j'
+order: 'i'
 ---
 
 ```bash

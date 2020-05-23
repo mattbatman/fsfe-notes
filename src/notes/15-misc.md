@@ -1,7 +1,7 @@
 ---
 path: '/misc-commands'
 title: 'Misc. Commands'
-order: 'p'
+order: 'o'
 ---
 
 ```bash

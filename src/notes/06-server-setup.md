@@ -4,11 +4,15 @@ title: 'Server Setup'
 order: 'f'
 ---
 
-1. Update software
+After connecting to the server via SSH, Jem's first steps in setting up the server were to:
+
+1. Update and upgrade the software
 2. Create a new user
-3. Make that user a super user
-4. Enable login for new user
-5. Disable root login
+3. Make the new user a super user
+4. Switch to the new user
+5. Enable login for the new user by pasting the public key you used in Digital Ocean to an `authorized_keys` file
+6. Log out from root and log back in as the new user
+7. Disable root login by locking permissions to the `authorized_keys` file and modifying a login configuration file
 
 ```bash
 # Update software
@@ -51,7 +55,7 @@ chmod 644 ~/.ssh/authorized_keys
 
 # Disable root login
 sudo vi /etc/ssh/sshd_config
-# ... then find and change:
+# ... then find and change the line:
 PermitRootLogin no # was "yes"
 
 # then restart

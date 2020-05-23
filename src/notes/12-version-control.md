@@ -1,10 +1,10 @@
 ---
 path: '/version-control'
 title: 'Version Control'
-order: 'm'
+order: 'l'
 ---
 
-Your goal will be to develop locally, push to GitHub, and pull from GitHub to your server. In this course, you first created the repository on your server, then set up a repo in GitHub, pushed code from your server to GitHub, and finally cloned from GitHub to your local machine.
+Your goal will be to develop locally, push from your machine to GitHub, and pull from GitHub to your server. In this course, you first created the repository on your server, then set up a repo in GitHub, pushed code from your server to GitHub, and finally cloned from GitHub to your local machine.
 
 The steps to sync your server with GitHub via this course were:
 

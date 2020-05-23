@@ -1,7 +1,7 @@
 ---
 path: '/nodejs-installation'
 title: 'Node.js Installation'
-order: 'i'
+order: 'h'
 ---
 
 ```bash

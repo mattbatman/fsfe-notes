@@ -13,7 +13,7 @@ ssh root@YOUR_IP
 exit
 ```
 
-If you're denied, it's likely that you don't have your SSH keys loaded (look for a "Permission Denied (publickey)" error).
+If you're denied, it's likely that you don't have your SSH keys loaded. Look for a "Permission Denied (publickey)" error. You could specify a key while SSHing, or include the key in your keychain via your SSH config file.
 
 ```bash
 # specify an SSH key

@@ -1,7 +1,7 @@
 ---
 path: '/proxy-passing-traffic'
 title: 'Proxy Passing Traffic'
-order: 'k'
+order: 'j'
 ---
 
 The default port for an app will be 80. You'll want to change the location directive to point to the correct location and port. The location directive will also allow you to run different apps on the same server.
